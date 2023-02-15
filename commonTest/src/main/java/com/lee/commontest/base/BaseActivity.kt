@@ -2,6 +2,7 @@ package com.lee.commontest.base
 
 import android.app.Activity
 import android.os.Bundle
+import com.lee.commontest.net.Api
 
 abstract class BaseActivity : Activity() {
 
@@ -15,6 +16,8 @@ abstract class BaseActivity : Activity() {
 
 //        nextActivity(BaseActivity::class.java)
 //        nextActivity(BaseFragment::class.java)
+
+//        Api.INSTANCE.get()
     }
 
 
