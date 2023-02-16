@@ -9,6 +9,7 @@ class CommonApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
+        println("========  CommonApplication ->> onCreate <<- ============")
 
         initARouter()
 
